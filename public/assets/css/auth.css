@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito/nunito-v16-latin-regular.woff2') format('woff2'),
+        url('../fonts/nunito/nunito-v16-latin-regular.woff') format('woff'),
+        url('../fonts/nunito/nunito-v16-latin-regular.ttf') format('truetype');
+}
+
+body {
+    font-family: "Nunito", "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: #f3f7f9;
+}
+
+i.fas {
+    width: 20px;
+    text-align: center;
+}
+
+.text-with-icon {
+    padding-left: 6px;
+}
+
+.button-with-icon {
+    padding-left: 4px;
+}
+
+.wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.auth-box {
+    -moz-box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 2px 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 1px 2px 10px 0 rgb(0 0 0 / 10%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #616161;
+}
+
+p.text-muted {
+    font-size: 13px;
+}
+
+.horizontal-line-text p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.horizontal-line-text p span {
+    background: #fff;
+    padding: 0 10px;
+}
